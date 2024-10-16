@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rocfuzeh+ - Digital Neobank</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Rocfuzeh+</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Simplify Your Banking with Rocfuzeh+</h2>
+            <p>AI-powered digital banking for everyone, anywhere.</p>
+            <a href="#signup" class="cta">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="feature-item">
+                <h3>No-Fee Banking</h3>
+                <p>Enjoy banking without monthly fees, hidden charges, or minimum balances.</p>
+            </div>
+            <div class="feature-item">
+                <h3>AI-Powered Tools</h3>
+                <p>Manage your finances with AI-driven insights, spending analysis, and savings advice.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Digital Cards</h3>
+                <p>Get instant access to digital cards for online and mobile transactions.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Micro-Loans</h3>
+                <p>Quick access to small loans designed to help build credit and financial stability.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Rocfuzeh+</h2>
+            <p>Founded to provide financial inclusion and seamless digital banking, Rocfuzeh+ blends innovation with Zulu cultural heritage to offer personalized, fee-free banking solutions.</p>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <p>1. Download the Rocfuzeh+ app.<br>2. Sign up with your ID and personal information.<br>3. Start managing your money with AI-powered tools and instant notifications.</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <p><strong>How do I open an account?</strong> You can open an account directly through our app in minutes.</p>
+            <p><strong>Are there any fees?</strong> No, Rocfuzeh+ is completely fee-free!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>For support or questions, email us at <a href="mailto:support@rocfuzeh.com">support@rocfuzeh.com</a> or call 0800-123-456.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rocfuzeh+. All rights reserved. | Privacy Policy | Terms & Conditions</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Navigation Highlight -->
+    <script>
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function () {
+                document.querySelectorAll('nav a').forEach(item => item.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
